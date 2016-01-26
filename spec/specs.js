@@ -1,9 +1,8 @@
 describe ("BankAccount", function() {
   it("it will create an account with the following information", function() {
-    var myAccount = new BankAccount("firstName","lastName","balance");
-    expect(myAccount.firstName).to.equal("firstName");
-    expect(myAccount.lastName).to.equal("lastName");
-    expect(myAccount.balance).to.eql([]);
+    var myAccount = new BankAccount("name",25);
+    expect(myAccount.name).to.equal("name");
+    expect(myAccount.balance).to.equal(25);
   });
-  
+  it(it will create)
 });

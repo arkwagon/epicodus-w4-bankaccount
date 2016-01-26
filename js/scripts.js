@@ -1,6 +1,5 @@
 
-var BankAccount = function(firstName,lastName) {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.balance = [];
+var BankAccount = function(name, initialDeposit) {
+    this.name = name;
+    this.balance = initialDeposit;
 }
