@@ -1,4 +1,6 @@
-// Uncomment this to see the example spec test pass. Delete if you don't need it!
-// var helloWorld = function(){
-//   return false;
-// };
+
+var BankAccount = function(firstName,lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.balance = [];
+}

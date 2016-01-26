@@ -1,6 +1,9 @@
-// Example spec. Uncomment if you want to see it run in spec-runner.html! Then uncomment the function in scripts.js
-// describe('helloWorld', function(){
-//   it("is going to be false", function(){
-//     expect(helloWorld()).to.equal(false);
-//   });
-// });
+describe ("BankAccount", function() {
+  it("it will create an account with the following information", function() {
+    var myAccount = new BankAccount("firstName","lastName","balance");
+    expect(myAccount.firstName).to.equal("firstName");
+    expect(myAccount.lastName).to.equal("lastName");
+    expect(myAccount.balance).to.eql([]);
+  });
+  
+});
